@@ -1,0 +1,44 @@
+// export icons
+export { default as HandIcon } from './icons/HandIcon.vue';
+export { default as AddIcon } from './icons/AddIcon.vue';
+export { default as EditIcon } from './icons/EditIcon.vue';
+export { default as SaveIcon } from './icons/SaveIcon.vue';
+export { default as CancelIcon } from './icons/CancelIcon.vue';
+export { default as ThinkingIcon } from './icons/ThinkingIcon.vue';
+export { default as SmileIcon } from './icons/SmileIcon.vue';
+export { default as DeleteIcon } from './icons/DeleteIcon.vue';
+export { default as ShowIcon } from './icons/ShowIcon.vue';
+export { default as NeutralIcon } from './icons/NeutralIcon.vue';
+export { default as MenuIcon } from './icons/MenuIcon.vue';
+
+// list icons
+export { default as BarberIcon } from './list-icons/BarberIcon.vue';
+export { default as CarIcon } from './list-icons/CarIcon.vue';
+export { default as CartIcon } from './list-icons/CartIcon.vue';
+export { default as CatIcon } from './list-icons/CatIcon.vue';
+export { default as ClipsIcon } from './list-icons/ClipsIcon.vue';
+export { default as ClockIcon } from './list-icons/ClockIcon.vue';
+export { default as DoctorIcon } from './list-icons/DoctorIcon.vue';
+export { default as DogIcon } from './list-icons/DogIcon.vue';
+export { default as CompletedIcon } from './list-icons/CompletedIcon.vue';
+export { default as FireIcon } from './list-icons/FireIcon.vue';
+export { default as FoodIcon } from './list-icons/FoodIcon.vue';
+export { default as GuitarIcon } from './list-icons/GuitarIcon.vue';
+export { default as HeartIcon } from './list-icons/HeartIcon.vue';
+export { default as HomeIcon } from './list-icons/HomeIcon.vue';
+export { default as LaptopIcon } from './list-icons/LaptopIcon.vue';
+export { default as NoteIcon } from './list-icons/NoteIcon.vue';
+export { default as PlaneIcon } from './list-icons/PlaneIcon.vue';
+export { default as RobotIcon } from './list-icons/RobotIcon.vue';
+export { default as StarIcon } from './list-icons/StarIcon.vue';
+export { default as ThoughtsIcon } from './list-icons/ThoughtsIcon.vue';
+export { default as ToolsIcon } from './list-icons/ToolsIcon.vue';
+export { default as TrainingIcon } from './list-icons/TrainingIcon.vue';
+export { default as WarningIcon } from './list-icons/WarningIcon.vue';
+export { default as BlueIcon } from './list-icons/BlueIcon.vue';
+export { default as RedIcon } from './list-icons/RedIcon.vue';
+export { default as PinkIcon } from './list-icons/PinkIcon.vue';
+export { default as GreenIcon } from './list-icons/GreenIcon.vue';
+export { default as PurpleIcon } from './list-icons/PurpleIcon.vue';
+export { default as YellowIcon } from './list-icons/YellowIcon.vue';
+export { default as BlackIcon } from './list-icons/BlackIcon.vue';
