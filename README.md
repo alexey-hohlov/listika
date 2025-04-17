@@ -5,9 +5,9 @@ Listika is a to-do list web app that I developed as a portfolio project.
 [Here is](https://alexey-hohlov.github.io/listika/) a live demo, deployed on GitHub Pages 🌎
 
 <div align="center">
-  <img height='480' alt="image" src="https://github.com/user-attachments/assets/64d5c0cf-0185-459a-b64f-9048757e6def" />
+  <img width='480' alt="image" src="https://github.com/user-attachments/assets/64d5c0cf-0185-459a-b64f-9048757e6def" />
   <img width="12" />
-  <img height='480' alt="image" src="https://github.com/user-attachments/assets/5a0ffae2-1b3e-48a2-931c-a8a526b0815d" />
+  <img width='480' alt="image" src="https://github.com/user-attachments/assets/5a0ffae2-1b3e-48a2-931c-a8a526b0815d" />
 </div>
 
 ## 💻 Technologies
