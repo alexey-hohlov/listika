@@ -9,22 +9,20 @@ defineProps<Props>();
 </script>
 
 <template>
-  <Teleport to="body">
-    <Transition name="menu">
+  <Transition name="menu">
+    <div
+      v-if="isOpen"
+      class="z-10 w-screen h-screen fixed top-0 right-0 bg-gray-100/10 backdrop-blur flex items-end justify-center px-2 md:hidden"
+      @click="onClose"
+    >
       <div
-        v-if="isOpen"
-        class="z-20 w-screen h-screen fixed top-0 right-0 bg-gray-100/10 backdrop-blur flex items-end justify-center px-2 md:hidden"
-        @click="onClose"
+        @click.stop
+        class="content bg-white rounded-t-xl w-full p-4 h-[90%] flex flex-col justify-between"
       >
-        <div
-          @click.stop
-          class="content bg-white rounded-t-xl w-full p-4 h-[90%] flex flex-col justify-between"
-        >
-          <ListManager />
-        </div>
+        <ListManager />
       </div>
-    </Transition>
-  </Teleport>
+    </div>
+  </Transition>
 </template>
 
 <style scoped>

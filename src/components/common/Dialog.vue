@@ -9,18 +9,12 @@ defineProps<Props>();
 </script>
 
 <template>
-  <Teleport to="body" v-if="isOpen">
-    <div
-      class="fixed top-0 right-0 w-screen h-screen z-30 cursor-pointer"
-      @click="onClose"
-      v-if="isOpen"
-    ></div>
-  </Teleport>
   <Transition name="appear">
     <div
       v-if="isOpen"
-      class="absolute p-2 rounded-2xl w-full bottom-16 shadow-xl z-40"
+      class="absolute p-2 rounded-2xl w-full bottom-16 shadow-xl"
       :class="bgColor"
+      v-click-outside="onClose"
     >
       <slot></slot>
     </div>
